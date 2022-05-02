@@ -1,0 +1,60 @@
+:root {
+    // Colors
+    --color-body: #f8f3e9;
+
+    --color-primary: #01a66c; // #01a66c #328353
+    --color-secondary: #fabb4b;
+    --color-tertiary: #f86062;
+
+    --color-primary-light: #e3f2e6;
+    --color-secondary-light: #fdeac7;
+    --color-tertiary-light: #fff5f6;
+
+    --color-yellow-light: #ffe9ae;
+    --color-yellow-lighter: #f5eee1;
+
+    --color-pink-light: #fec3fb;
+    --color-pink-lighter: #f9e3fa;
+    
+    --color-violet-light: #e5cbfb;
+    --color-violet-lighter: #eadcf9;
+
+    --color-greenish-lighter: #eef1c7;
+
+    --color-font-primary: #333;
+    --color-font-secondary: #666;
+
+    --color-white: #fff;
+    --color-black: #000;
+
+    --color-danger: #f5365c;
+    --color-success: #2dce89;
+
+    // Category colors
+    --color-cat-vegetable: #cfd861;
+    --color-cat-fruit: #ffda79;
+    --color-cat-icecream: #eb5f59;
+    --color-cat-dairy: #bda88d;
+
+    // Font Sizes
+    --font-size-default: 1.6rem;
+    --font-size-lead: 1.8rem;
+
+    // Normal Headings
+    --font-size-h1: 6rem;
+    --font-weight-h1: 900;
+
+    --font-size-h2: 2.5rem;
+    --font-weight-h2: 700;
+
+    --font-size-h3: 2rem;
+    --font-weight-h3: 700;
+
+    // Thin Headings
+    --font-weight-thin: 300;
+
+    --btn-focus-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+    --btn-hover-shadow: 0 .1rem 2rem rgba(0, 0, 0, 0.2);
+    --btn-text-hover-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+    --btn-text-active-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15);
+}

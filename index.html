@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="de" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Econoiz</title>
+    <meta name="description" content="Econoiz - Change the world with your style!">
+    
+    <!-- URL CANONICAL -->
+    <link rel="canonical" href="https://econoiz.com">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/main.css">
+
+    <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+    <!-- FACEBOOK -->
+    <meta property="og:url" content="https://econoiz.com">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Econoiz">
+    <meta property="og:description" content="Econoiz - Change the world with your style!">
+    <meta property="og:updated_time" content="22.04.2022">
+    <meta property="og:image" content="dist/logo.png">
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="container">
+            <div class="nav__logo-container flex flex-col-center-y">
+                <a class="nav__logo" href="/">
+                    <!--<img src="dist/img/logo.svg" alt="AOH">-->
+                    <span>econoiz</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="header">
+        <div class="header__image-box">
+            <div class="header__image-container">
+                <img class="header__image" src="dist/images/header-img.png" alt="Header Image">
+            </div>
+        </div>
+        <div class="container">
+            <div class="header__text-box">
+                <h1 class="header__title header__title--part-one">
+                    Change the world
+                </h1>
+                <h1 class="header__title header__title--part-two">
+                    with your style!
+                </h1>
+                <div class="header__description">
+                    <div class="row">
+                        <div class="col-8 col-sm-11 flex flex-col-center-x">
+                            <p class="header__about-collection">Introducing our first collection - Essence</p>
+                        </div>
+                        <div class="col-4 col-sm-1">
+                            <button class="btn-watch-video" data-modal-target="#video-modal">
+                                <img class="header__watch-video-icon" src="dist/images/watch-icon.svg" alt="Watch Video">
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Start Video Modal -->
+                    <div id="overlay" class="overlay"></div>
+                    <div id="video-modal" class="modal">
+                        <div class="modal__header">
+                            <h1 class="modal__title">Unser Pitch video</h1>
+                            <button data-close-button class="modal__btn-close">&times;</button>
+                        </div>
+                        <div class="modal__body modal__body--video">
+                            <div class="modal__content-box">
+                                <iframe class="iframe" src="https://www.youtube.com/embed/h9r4gPZu438" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Video Modal -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section id="section-cf" class="section-cf">
+            <div class="container">
+                <div class="cf">
+                    <div class="row">
+                        <div class="col-4 col-md-5 col-sm-12 cf__col-widget">
+                            <div class="cf-extwidget" data-lang="de"><project-widget caption="econoiz" /></div>
+                        </div>
+                        <div class="col-8 col-md-7 col-sm-12 cf__col-info">
+                            <div class="cf__info-box">
+                                <h1 class="cf__title heading-primary heading-italiana u-margin-bottom-m">
+                                    Crowdfunding Kampagne
+                                </h1>
+                                <p class="lead font-300">
+                                    Was wir mit unserer Kollektion anders machen?
+                                </p><br/>
+                                <p class="lead font-300">
+                                    Wir setzen auf einen Stoff, der aus europäischem Holz gewonnen wird und als besonders umweltfreundlich gilt. Bei der Auswahl des Stoffes war es uns wichtig, dass wir wirklich umweltfreundlich produzieren lassen und dabei keine leeren Marketing-Versprechen machen. Deswegen sind wir 100% transparent und zeigen auf unserer Website wie viel die verschiedenen Verarbeitungsschritte kosten und wer alles dabei mitverdient.
+                                </p>
+                                <p class="lead font-300">
+                                    Fast Fashion Unternehmen wie Shein sorgen mit unglaublich günstigen Preisen dafür, dass Mode zu Wegwerfpreisen produziert wird - was weltweit enorme Klimaschäden anrichtet. Wir hoffen, dass wir mit unserer Mode dazu beitragen können, dass Kleidung wieder mehr wertgeschätzt wird. 
+                                </p>
+                                <p class="lead font-300">
+                                    Um das Projekt Realität werden zu lassen, bestelle Dir jetzt etwas aus unserer erstem Kollektion auf Startnext!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-transparent" class="section-transparent">
+            <div class="container">
+                <div class="transparent">
+                    <div class="row">
+                        <div class="col-4 col-md-12">
+                            <h1 class="transparent__title heading-primary heading-italiana u-margin-bottom-m">
+                                Transparenz
+                            </h1>
+                            <p class="lead font-300 transparent__description">
+                                Wir sind radikal Transparent und zeigen wie viel die verschieden Verarbeitungsschritte kosten und wer alles dabei mitverdient.
+                            </p>
+                        </div>
+                        <div class="col-8 col-md-12">
+                            <div class="transparency">
+                                <div class="transparency__tab-container">
+                                    <button class="btn transparency__tab transparency__tab--1 transparency__tab--active" data-tab="1">Shirt Basic</button>
+                                    <button class="btn transparency__tab transparency__tab--2" data-tab="2">Shirt Bedruckt</button>
+                                    <button class="btn transparency__tab transparency__tab--3" data-tab="3">Tasche</button>
+                                    <button class="btn transparency__tab transparency__tab--4" data-tab="4">Armbändchen</button>
+                                </div>
+
+                                <div class="transparency__content transparency__content--1 transparency__content--active">
+                                    <div class="transparency__details">
+                                        <div class="transparency__item">
+                                            <div class="collapsible">
+                                                <div class="row">
+                                                    <div class="col-11">
+                                                        <p class="transparency__item-title">Stoff Aufschlüsselung</p>
+                                                    </div>
+                                                    <div class="col-1">
+                                                        <span style="float: right; font-weight: 500;">+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="transparency__detail">
+                                                <p><span class="transp-detail-title">Der Stoff:</span> 100% Tencel Lyocell</p>
+                                                <p><span class="transp-detail-title">Der Rohstoff Herkunft:</span> Östereich</p>
+                                                <p><span class="transp-detail-title">Die Faser:</span> Östereich</p>
+                                                <p><span class="transp-detail-title">Das Garn:</span> Östereich</p>
+                                                <p><span class="transp-detail-title">Stofffabrik:</span> Polen, Portugal</p>
+                                                <p><span class="transp-detail-title">Färberei:</span> Griechenland</p>
+                                                <p><span class="transp-detail-title">Färbeverfahren:</span> GOTS Zertifiziert</p>
+                                                <p><span class="transp-detail-title">Nähgarn:</span> 100% Tencel Lyocell, Hergestellt in Europa</p>
+                                                <p><span class="transp-detail-title">Labels:</span> 100% Tencel Lyocell, Hergestellt in Europa</p>
+                                            </div>
+                                        </div>
+                                        <div class="transparency__item">
+                                            <div class="collapsible">
+                                                <div class="row">
+                                                    <div class="col-11">
+                                                        <p class="transparency__item-title">Preis Aufschlüsselung</p>
+                                                    </div>
+                                                    <div class="col-1">
+                                                        <span style="float: right; font-weight: 500;">+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="transparency__detail">
+                                                <p><span class="transp-detail-title">T-Shirt Rohling:</span> 20,48€</p>
+                                                <p><span class="transp-detail-title">Druck (Logo):</span> 3,00€</p>
+                                                <p><span class="transp-detail-title">Marketing (Crowdfunding):</span> 18,51€</p>
+                                                <p><span class="transp-detail-title">Verpackung:</span> 3,27€</p>
+                                                <p><span class="transp-detail-title">Karton:</span> 1,50€</p>
+                                                <p><span class="transp-detail-title">Logistik:</span> 9,00€</p>
+                                                <p><span class="transp-detail-title">MwtSt.:</span> 9,58€</p>
+                                            </div>
+                                        </div>
+                                        <div class="transparency__item">
+                                            <div class="collapsible">
+                                                <div class="row">
+                                                    <div class="col-11">
+                                                        <p class="transparency__item-title">Produktion</p>
+                                                    </div>
+                                                    <div class="col-1">
+                                                        <span style="float: right; font-weight: 500;">+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="transparency__detail">
+                                                <p>Kleidungsstück hergestellt in Portugal</p>
+                                                <p>Bedruckt/Gestickt in Deutschland</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transparency__content transparency__content--2">
+
+                                    <div class="transparency__details">
+                                        <div class="transparency__item">
+                                            <div class="collapsible">
+                                                <div class="row">
+                                                    <div class="col-11">
+                                                        <p class="transparency__item-title">Stoff Aufschlüsselung</p>
+                                                    </div>
+                                                    <div class="col-1">
+                                                        <span style="float: right; font-weight: 500;">+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="transparency__detail">
+                                                <p><span class="transp-detail-title">Der Stoff:</span> 100% Tencel Lyocell</p>
+                                                <p><span class="transp-detail-title">Der Rohstoff Herkunft:</span> Östereich</p>
+                                                <p><span class="transp-detail-title">Die Faser:</span> Östereich</p>
+                                                <p><span class="transp-detail-title">Das Garn:</span> Östereich</p>
+                                                <p><span class="transp-detail-title">Stofffabrik:</span> Polen, Portugal</p>
+                                                <p><span class="transp-detail-title">Färberei:</span> Griechenland</p>
+                                                <p><span class="transp-detail-title">Färbeverfahren:</span> GOTS Zertifiziert</p>
+                                                <p><span class="transp-detail-title">Nähgarn:</span> 100% Tencel Lyocell, Hergestellt in Europa</p>
+                                                <p><span class="transp-detail-title">Labels:</span> 100% Tencel Lyocell, Hergestellt in Europa</p>
+                                            </div>
+                                        </div>
+                                        <div class="transparency__item">
+                                            <div class="collapsible">
+                                                <div class="row">
+                                                    <div class="col-11">
+                                                        <p class="transparency__item-title">Preis Aufschlüsselung</p>
+                                                    </div>
+                                                    <div class="col-1">
+                                                        <span style="float: right; font-weight: 500;">+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="transparency__detail">
+                                                <p><span class="transp-detail-title">T-Shirt Rohling:</span> 20,48€</p>
+                                                <p><span class="transp-detail-title">Druck (Kunstwerk):</span> 6,66€</p>
+                                                <p><span class="transp-detail-title">Marketing (Crowdfunding):</span> 18,51€</p>
+                                                <p><span class="transp-detail-title">Verpackung:</span> 3,27€</p>
+                                                <p><span class="transp-detail-title">Karton:</span> 1,50€</p>
+                                                <p><span class="transp-detail-title">Logistik:</span> 9,00€</p>
+                                                <p><span class="transp-detail-title">MwtSt.:</span> 9,58€</p>
+                                            </div>
+                                        </div>
+                                        <div class="transparency__item">
+                                            <div class="collapsible">
+                                                <div class="row">
+                                                    <div class="col-11">
+                                                        <p class="transparency__item-title">Produktion</p>
+                                                    </div>
+                                                    <div class="col-1">
+                                                        <span style="float: right; font-weight: 500;">+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="transparency__detail">
+                                                <p>Kleidungsstück hergestellt in Portugal</p>
+                                                <p>Bedruckt in Deutschland</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transparency__content transparency__content--3">
+
+                                    <div class="transparency__details">
+                                        <div class="transparency__item">
+                                            <div class="collapsible">
+                                                <div class="row">
+                                                    <div class="col-11">
+                                                        <p class="transparency__item-title">Stoff Aufschlüsselung</p>
+                                                    </div>
+                                                    <div class="col-1">
+                                                        <span style="float: right; font-weight: 500;">+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="transparency__detail">
+                                                <p>Die Tragetasche wird nach ökologischen und sozialen Standards hergestellt. Sie besteht aus Biobaumwolle und ist Fairtrade, GOTS, Vegan und Grüner Knopf zertifiziert.</p>
+                                            </div>
+                                        </div>
+                                        <div class="transparency__item">
+                                            <div class="collapsible">
+                                                <div class="row">
+                                                    <div class="col-11">
+                                                        <p class="transparency__item-title">Preis Aufschlüsselung</p>
+                                                    </div>
+                                                    <div class="col-1">
+                                                        <span style="float: right; font-weight: 500;">+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="transparency__detail">
+                                                <p><span class="transp-detail-title">Der Stoff:</span> 1,95€</p>
+                                                <p><span class="transp-detail-title">Druck (Kunstwerk):</span> 6,66€</p>
+                                                <p><span class="transp-detail-title">Verpackung:</span> 0.30€</p>
+                                                <p><span class="transp-detail-title">Marketing (Crowdfunding)</span> 5,95€</p>
+                                                <p><span class="transp-detail-title">Logistik:</span> 1,95€</p>
+                                                <p><span class="transp-detail-title">MwtSt.:</span> 3,19€</p>
+                                            </div>
+                                        </div>
+                                        <div class="transparency__item">
+                                            <div class="collapsible">
+                                                <div class="row">
+                                                    <div class="col-11">
+                                                        <p class="transparency__item-title">Produktion</p>
+                                                    </div>
+                                                    <div class="col-1">
+                                                        <span style="float: right; font-weight: 500;">+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="transparency__detail">
+                                                <p>Tasche hergestellt in Asien</p>
+                                                <p>Bedruckt in Deutschland</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="transparency__content transparency__content--4">
+
+                                    <div class="transparency__details">
+                                        <div class="transparency__item">
+                                            <div class="collapsible">
+                                                <div class="row">
+                                                    <div class="col-11">
+                                                        <p class="transparency__item-title">Stoff Aufschlüsselung</p>
+                                                    </div>
+                                                    <div class="col-1">
+                                                        <span style="float: right; font-weight: 500;">+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="transparency__detail">
+                                                <p>Dieses Material gilt als umweltfreundlich und nachhaltig, da dieses Material aus recycelten PET Flaschen gewonnen wird.</p>
+                                            </div>
+                                        </div>
+                                        <div class="transparency__item">
+                                            <div class="collapsible">
+                                                <div class="row">
+                                                    <div class="col-11">
+                                                        <p class="transparency__item-title">Preis Aufschlüsselung</p>
+                                                    </div>
+                                                    <div class="col-1">
+                                                        <span style="float: right; font-weight: 500;">+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="transparency__detail">
+                                                <p><span class="transp-detail-title">Der Stoff:</span> 0,65€</p>
+                                                <p><span class="transp-detail-title">Verpackung:</span> 0.30€</p>
+                                                <p><span class="transp-detail-title">Marketing (Crowdfunding)</span> 1,79€</p>
+                                                <p><span class="transp-detail-title">Logistik:</span> 1,30€</p>
+                                                <p><span class="transp-detail-title">MwtSt.:</span> 0,96€</p>
+                                            </div>
+                                        </div>
+                                        <div class="transparency__item">
+                                            <div class="collapsible">
+                                                <div class="row">
+                                                    <div class="col-11">
+                                                        <p class="transparency__item-title">Produktion</p>
+                                                    </div>
+                                                    <div class="col-1">
+                                                        <span style="float: right; font-weight: 500;">+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="transparency__detail">
+                                                <p>Hergestellt und bedruckt in Deutschland</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-team" class="section-team">
+            <div class="container">
+                <div class="team">
+                    <h1 class="heading-primary heading-italiana u-center-text u-margin-bottom-xxl">The Team</h1>
+                    <div class="row">
+                        <div class="col-4 col-md-12 flex flex-col-center-y">
+                            <div class="team__member-content u-center-text">
+                                <img class="team__member-img" src="dist/images/khani.png" alt="Khani"/>
+                                <p class="team__member-name u-margin-top-m">Khani</p>
+                                <a class="team__member-insta" href="https://instagram.com/0xkhani" target="_blank">@0xkhani</a>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-12 flex flex-col-center-y">
+                            <div class="team__member-content u-center-text">
+                                <img class="team__member-img" src="dist/images/jesko.png" alt="Jesko"/>
+                                <p class="team__member-name u-margin-top-m">Jesko</p>
+                                <a class="team__member-insta" href="https://instagram.com/just_jesko" target="_blank">@just_jesko</a>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-12 flex flex-col-center-y">
+                            <div class="team__member-content u-center-text">
+                                <img class="team__member-img" src="dist/images/tariel.png" alt="Tariel"/>
+                                <p class="team__member-name u-margin-top-m">Tariel</p>
+                                <a class="team__member-insta" href="https://instagram.com/tarielleiss" target="_blank">@tarielleiss</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-social fs">
+                    <div class="row">
+                        <div class="col-4 col-md-5 col-sm-12">
+                            <div class="fs__newsletter">
+                                <h1 class="fs__title-subscribe">
+                                    <span>Subscribe to</span><br/>
+                                    <span>&#8212; Newsletter</span>
+                                </h1>
+                                <!-- Begin Mailchimp Signup Form -->
+                                <form action="https://protonmail.us20.list-manage.com/subscribe/post?u=f3eb5af6a737c824f42bbd757&amp;id=43b94ffc86" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                                    <div class="fs__inputs">
+                                        <input type="email" value="" name="EMAIL" class="required email fs__input-field" id="mce-EMAIL" placeholder="Deine Email">
+                                        <input type="submit" value="&#8594;" name="subscribe" id="mc-embedded-subscribe" class="fs__submit-btn">
+                                    </div>
+                                </form>
+                                <!--End mc_embed_signup-->
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-2"></div>
+                        <div class="col-4 col-md-5 col-sm-12">
+                            <div class="fs__socials">
+                                <h1 class="fs__title-socials">
+                                    <span>Don't be shy</span><br/>
+                                    <span>&#8212; Follow us!</span>
+                                </h1>
+                                <div class="fs__socials-box">
+                                    <ul class="fs__social-icons">
+                                        <a class="fs__social-link" target="_blank" title="Instagram" href="https://instagram.com/econoiz"><li class="fs__social-icon">in</li></a>
+                                        <a class="fs__social-link" target="_blank" title="Facebook" href="https://facebook.com/econoiz"><li class="fs__social-icon">fb</li></a>
+                                        <a class="fs__social-link" target="_blank" title="Twitter" href="https://twitter.com/econoiz"><li class="fs__social-icon">tw</li></a>
+                                        <a class="fs__social-link" target="_blank" title="Youtube" href="https://www.youtube.com/channel/UC5AmOXwEJu--W_RCmVBDy6w"><li class="fs__social-icon">yt</li></a>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__message-box">
+                    <p class="footer__message">We hope you got INSPIRED and please SHARE the good work on social media with your friends and family so everyone becomes a part of the great change.</p>
+                </div>
+                
+                <div class="footer__nav">
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="footer__nav-items">
+                                <li class="footer__nav-item" data-modal-target="#impressum-modal">Impressum</li>
+                                <li class="footer__nav-item" data-modal-target="#kontakt-modal">Kontakt</li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <div class="footer__copyright">
+                                <p>&copy; 2022 Econoiz</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start Impressum Modal -->
+                    <div id="impressum-modal" class="modal">
+                        <div class="modal__header">
+                            <h1 class="modal__title">Impressum</h1>
+                            <button data-close-button class="modal__btn-close">&times;</button>
+                        </div>
+                        <div class="modal__body">
+                            <div class="modal__content-box flex flex-center">
+                                <div class="modal__content">
+                                    <p class="lead font-400">Angaben gemäß §5 TMG:</p>
+                                    <p class="font-300">Econoiz Gbr</p>
+                                    <p class="lead font-400">Postanschrift:</p>
+                                    <p class="font-300">Martackertenstraße 23A, 79112 Freiburg im Breisgau</p>
+                                    <p class="lead font-400">Kontakt:</p>
+                                    <p class="font-300">Email: hello@econoiz.com</p>
+                                    <p class="lead font-400">Vertreten durch:</p>
+                                    <p class="font-300">Muhammad Sher Khan</p>
+                                    <p class="font-300">Jesko Treiber</p>
+                                    <p class="font-300">Tariel Leiss</p>
+                                    <p class="lead font-400">Umsatzsteuer-Identifikationsnummer:</p>
+                                    <p class="font-300">DE337957119</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Impressum Modal -->
+                    <!-- Start Kontakt Modal -->
+                    <div id="kontakt-modal" class="modal">
+                        <div class="modal__header">
+                            <h1 class="modal__title">Kontakt</h1>
+                            <button data-close-button class="modal__btn-close">&times;</button>
+                        </div>
+                        <div class="modal__body">
+                            <div class="modal__content-box flex flex-center">
+                                <div class="modal__content">
+                                    <p class="lead font-400">Email:</p>
+                                    <p class="font-300"><a class="modal__link" href="mailto:hello@econoiz.com">hello@econoiz.com</a></p>
+                                    <p class="lead font-400 u-margin-top-m">Social Media:</p>
+                                    <p class="font-300">Instagram: 
+                                        <a class="modal__link" target="_blank" href="https://instagram.com/econoiz">@econoiz</a>
+                                    </p>
+                                    <p class="font-300">Facebook: 
+                                        <a class="modal__link" target="_blank" href="https://facebook.com/econoiz">@econoiz</a>
+                                    </p>
+                                    <p class="font-300">Twitter: 
+                                        <a class="modal__link" target="_blank" href="https://twitter.com/econoiz">@econoiz</a>
+                                    </p>
+                                    <p class="font-300">Tiktok: 
+                                        <a class="modal__link" target="_blank" href="https://tiktok.com/@econoiz">@econoiz</a>
+                                    </p>
+                                    <p class="font-300">Youtube: 
+                                        <a class="modal__link" target="_blank" href="https://www.youtube.com/channel/UC5AmOXwEJu--W_RCmVBDy6w">econoiz</a>
+                                    </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Kontakt Modal -->
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="dist/main.js"></script>
+    <script type="text/javascript" src="https://www.startnext.com/templates/js/cfm-frontend/dist/js/widget.bundle.js"></script>
+</body>
+</html>

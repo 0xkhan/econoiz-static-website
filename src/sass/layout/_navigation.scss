@@ -1,0 +1,18 @@
+.nav {
+    width: 100%;
+    font-size: var(--font-size-default);
+    padding: 2.5rem 0;
+
+    &__logo {
+        @include respond(phone) {
+            font-size: 2.2rem;
+        }
+
+        &:link,
+        &:visited {
+            font-weight: 600;
+            text-decoration: none;
+            color: var(--color-font-primary);
+        }
+    }
+}

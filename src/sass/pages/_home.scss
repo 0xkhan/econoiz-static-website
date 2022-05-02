@@ -1,0 +1,44 @@
+section {
+    font-size: var(--font-size-default);
+}
+
+.container {
+    // padding: 0 5rem;
+
+    @include respond(big-desktop) {
+        padding: 0 2rem;
+    }
+}
+
+.section-cf {
+    padding: 5rem 0;
+}
+
+.section-transparent {
+    padding: 5rem 0;
+}
+
+.section-team {
+    padding: 5rem 0 10rem 0;
+}
+
+.team {
+    &__member-img {
+        @include respond(tab-land) {
+            width: 80%;
+        }
+    }
+
+    &__member-name {
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+
+    &__member-insta {
+        &:link,
+        &:visited {
+            text-decoration: none;
+            color: var(--color-font-default);
+        }
+    }
+}

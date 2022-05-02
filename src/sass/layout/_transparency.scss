@@ -1,0 +1,85 @@
+.transparent {
+    &__description {
+        text-align: justify;
+
+        @include respond(desktop) {
+            text-align: left;
+        }
+    }
+}
+
+.transparency {
+    &__tab-container {
+        text-align: center;
+
+        @include respond(phone) {
+            text-align: left;
+        }
+    }
+
+    &__tab {
+        background: transparent;
+        font-family: 'Italiana', serif;
+        font-size: 1.8rem;
+
+        @include respond(desktop) {
+            padding: 1.5rem 2rem;
+        }
+        
+        @include respond(phone) {
+            padding: 0;
+            &:not(:last-child) {
+                font-size: 1.6rem;
+                margin-right: 1rem;
+            }
+        }
+
+        &--active {
+            text-decoration: underline;
+            text-decoration-style: double;
+            text-underline-offset: 1rem;
+            text-decoration-thickness: .15rem;
+            text-decoration-color: #333;
+        }
+    }
+
+    &__content {
+        display: none;
+        padding: 2.5rem;
+        
+        @include respond(phone) {
+            padding: 0;
+            margin-top: 2.5rem;
+        }
+
+        &--active {
+            display: block;
+        }
+    }
+
+    &__item {
+        padding: 3rem;
+        border-bottom: 1px solid #999;
+
+        @include respond(phone) {
+            padding: 2rem 0;
+        }
+    }
+
+    &__detail {
+        display: none;
+        margin-top: 2rem;
+    }
+}
+
+.transp-detail-title {
+    font-weight: 600;
+}
+
+.collapsible {
+    cursor: pointer;
+}
+
+.collapsible--active {
+    display: block;
+}

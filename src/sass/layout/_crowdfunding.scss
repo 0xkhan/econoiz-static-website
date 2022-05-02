@@ -1,0 +1,23 @@
+.cf {
+
+    &__col-widget {
+        @include respond(phone) {
+            order: 2;
+        }
+    }
+    
+    &__title {
+        
+    }
+}
+
+.cf .row {
+    width: 100%;
+}
+
+.cf-extwidget .project-box--external {
+    @include respond(phone) {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}

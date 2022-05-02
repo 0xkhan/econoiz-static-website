@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--color-font-primary);
+}
+
+.heading-italiana {
+    font-family: 'Italiana', serif;
+}
+
+.heading-primary {
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-h1);
+
+    @include respond(phone) {
+        font-size: 4rem;
+    }
+}
+
+.heading-secondary {
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);    
+}
+
+.heading-tertiary {
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-h3);
+}
+
+.lead {
+    font-size: var(--font-size-lead);
+}
+
+.font-300 {
+    font-weight: 300;
+}
+
+.font-400 {
+    font-weight: 400;
+}
+
+.font-500 {
+    font-weight: 400;
+}
+
+.font-600 {
+    font-weight: 600;
+}
